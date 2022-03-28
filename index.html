@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICML 2022 Workshop on Knowledge Retrieval and Language Models</title>
+    <link rel="stylesheet" href="bulma-0.9.3.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+  </head>
+  <body class="is-size-5">
+  <section class="hero is-medium is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="subtitle is-size-2">ICML 2022 Workshop on</h2>
+        <h1 class="title is-size-1">Knowledge Retrieval and Language Models</h1>
+        <p class="is-size-4">Friday, July 22, 2022<br>
+        Baltimore, Maryland USA (Hybrid)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="content">
+        <h2>Overview</h2>
+        <p>
+          In just the past couple of years, we have seen significant advances in the capabilities of (Large) Language Models. One of the most striking capabilities of these systems is knowledge retrieval — Language Models can answer a diverse set of questions, which differ substantially in the domain knowledge needed for their responses, and their input structure. The precise methods for knowledge retrieval vary from the language model directly generating a response (parametric approaches) to a combination of generation and referencing an external knowledge corpus, e.g. retrieval augmented generation, to primarily using an external knowledge corpus with language model embeddings (semi-parametric approaches.)
+        </p>
+        <p>
+          Despite the rapid advances, there remain many pressing open questions on the limits of knowledge retrieval with language models, and connections between these different approaches. How factual are generated responses, and how does this vary with question complexity, model scale, and importantly, different methods of knowledge retrieval? How important is the role of (self-supervised/supervised) pretraining?  What are the tradeoffs between few-shot (prompt based) approaches and finetuning when adapting to novel domains? And relatedly, to what extent do different knowledge retrieval approaches generalize to unseen settings?
+        </p>
+        <p>
+          This workshop seeks to bring together a diverse set of researchers across NLP, Machine Learning and Theory to discuss these questions. We hope to share current findings and challenges, identify promising directions for future study, and most importantly, build a community around this topic at this pivotal time.
+        </p>
+
+        <h2>Call for Papers</h2>
+        <p>
+         We welcome all submissions related to knowledge retrieval and language models, including:
+        </p>
+        <ul>
+          <li>Methods for grounding language model responses.</li>
+          <li>Open-domain retrieval and question answering.</li>
+          <li>Improving and evaluating factuality.</li>
+          <li>Bias and fairness in knowledge retrieval.</li>
+          <li>Empirical studies of scale, transfer and generalization.</li>
+          <li>Analysis of knowledge retrieval and language model phenomena.</li>
+        </ul>
+        <p><b>Submission URL</b>: <a href="https://openreview.net/group?id=ICML.cc/2022/Workshop/KRLM">openreview.net/group?id=ICML.cc/2022/Workshop/KRLM</a></p>
+        <p><b>Format</b>: All submissions must be in PDF format. Submissions are limited to <b>four</b> content pages, including all figures and tables; unlimited additional pages containing references and supplementary materials are allowed. Reviewers may choose to read the supplementary materials but will not be required to. Camera-ready versions may go up to <b>five</b> content pages.</p>
+        <p><b>Style file</b>: You must format your submission using the provided <a href="files/latex-template.zip">LaTeX style file</a>, which is adapted from the official ICML 2022 LaTeX style file. Please include the references and supplementary materials in the same PDF as the main paper. The maximum file size for submissions is 50MB. Submissions that violate the style (e.g., by decreasing margins or font sizes) or page limits may be rejected without further review.</p>
+        <p><b>Dual-submission policy</b>: We welcome ongoing and unpublished work. We also welcome papers that are under review at the time of submission, or that have been recently accepted.</p>
+        <p><b>Submissions and accepted papers</b>: Workshop submissions and reviews will be private. The camera-ready version of accepted papers will be shared on the workshop webpage. However, the hosting is not an official proceeding, so the papers can be subsequently / concurrently submitted to other venues.</p>
+        <p><b>In person presentation</b>: Accepted papers are expected to be presented in person.</p>
+
+        <h2>Important Dates</h2>
+        <p>
+          <ul>
+            <li><b>Submission deadline</b>: May 27, 2022 AOE</li>
+            <li><b>Notification to authors</b>: June 13, 2022</li>
+            <li><b>Camera-ready deadline</b>: July 8th, 2022 AOE</li>
+          </ul>
+        </p>
+
+        <h2>Schedule</h2>
+        <table class="table is-striped">
+          <thead>
+            <tr> <th>Time</th> <th>Event</th> <th>Speaker</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>8:45 am - 9:00 am</td><td>Opening Remarks</td><td>Workshop Organizers</td><td></td></tr>
+            <tr>
+              <td>9:00 am - 9:30 am</td>
+              <td>Invited Talk 1</td>
+              <td>Nils Reimers</td>
+            </tr>
+            <tr>
+              <td>9:30 am - 10:00 am</td>
+              <td>Invited Talk 2</td>
+              <td>Sebastian Riedel</td>
+            </tr>
+            <tr>
+              <td>10:00 am - 10:30 am</td>
+              <td>Break</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>10:30 am - 11:00 am</td>
+              <td>Invited Talk 3</td>
+              <td>John Schulman</td>
+            </tr>
+            <tr>
+              <td>11:00 am - 12:00 pm</td>
+              <td>Poster Session</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>12:00 pm - 1:30 pm</td>
+              <td>Lunch Break</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>1:30 pm - 2:00 pm</td>
+              <td>Invited Talk 4</td>
+              <td>Jimmy Lin</td>
+            </tr>
+            <tr>
+              <td>2:00 pm - 2:30 pm</td>
+              <td>Invited Talk 5</td>
+              <td>Ellie Pavlick</td>
+            </tr>
+            <tr>
+              <td>2:30 pm - 3:00 pm</td>
+              <td>Contributed Talks</td>
+              <td>
+                1. Dialog Inpainting: Turning Documents into Dialogs<br>
+                2. Huge Frozen Language Models as Readers for Open-Domain Question Answering</br>
+                3. LinkBERT: Pretraining Language Models with Document Links
+              </td>
+            </tr>
+            <tr>
+              <td>3:00 pm - 3:30 pm</td>
+              <td>Break</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>3:30 pm - 4:00 pm</td>
+              <td>Invited Talk 6</td>
+              <td>Danqi Chen</td>
+            </tr>
+            <tr>
+              <td>4:00 pm - 4:30 pm</td>
+              <td>Invited Talk 7</td>
+              <td>Quoc Le</td>
+            </tr>
+            <tr>
+              <td>4:30 pm - 5:30 pm</td>
+              <td>Panel Discussion</td>
+              <td>Panelists: Kenton Lee, Danqi Chen, Fernando Diaz, Stella Biderman<br>Moderator: Sasha Rush</td>
+            </tr>
+            <tr>
+              <td>5:30 pm - 5:40 pm</td>
+              <td>Closing Remarks</td>
+              <td>Workshop Organizers</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        <h2>Accepted Papers</h2>
+        <ul>
+          <li>
+            Michihiro Yasunaga, Jure Leskovec, Percy Liang.
+            <a href="https://openreview.net/forum?id=mAIHKEcg-sN">LinkBERT: Pretraining Language Models with Document Links</a>. 
+            <b>Contributed Talk</b>.
+          </li>
+          <li>
+            Takeshi Kojima, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, Yusuke Iwasawa.
+            <a href="https://openreview.net/forum?id=6p3AuaHAFiN">Large Language Models are Zero-Shot Reasoners</a>.
+          </li>
+          <li>
+            Zhuyun Dai, Arun Tejasvi Chaganty, Vincent Y Zhao, Aida Amini, Mike Green, Qazi Mamunur Rashid, Kelvin Guu.
+            <a href="https://openreview.net/forum?id=4Go-I0jf4a">Dialog Inpainting: Turning Documents into Dialogs</a>.
+            <b>Contributed Talk</b>.
+          </li>
+          <li>
+            Yoav Levine, Ori Ram, Daniel Jannai, Barak Lenz, Shai Shalev-Shwartz, Amnon Shashua, Kevin Leyton-Brown, Yoav Shoham.
+            <a href="https://openreview.net/forum?id=z3Bxu8xNJaF">Huge Frozen Language Models as Readers for Open-Domain Question Answering</a>.
+            <b>Contributed Talk</b>.
+          </li>
+          <li>
+            Jie Huang, Hanyin Shao, Kevin Chang.
+            <a href="https://openreview.net/forum?id=aimSsgpNSr">Are Large Pre-Trained Language Models Leaking Your Personal Information?</a>
+          </li>
+          <li>
+            Disha Shrivastava, Hugo Larochelle, Daniel Tarlow.
+            <a href="https://openreview.net/forum?id=bUDmRzeh3PT">Repository-Level Prompt Generation for Large Language Models of Code</a>.
+            <span class="icon"><i class="fa-solid fa-paperclip"></i></span>
+              <a href="assets/KLMN-2022-Workshop-Poster.pdf">Poster</a>
+          </li>
+          <li>
+            Man Luo, Mihir Parmar, Jayasurya Sevalur Mahendran, Sahit Jain, Samarth Rawal, Chitta Baral.
+            <a href="https://openreview.net/forum?id=grONYRLFkJ">SCONER: Scoring Negative Candidates Before Training Neural Re-Ranker For Question Answering</a>.
+            <span class="icon"><i class="fa-solid fa-paperclip"></i></span>
+              <a href="assets/SCONER_ICML_poster.pdf">Poster</a>
+            &nbsp;
+            <span class="icon"><i class="fa-solid fa-video"></i></span>
+              <a href="assets/SCONER_ICML_recording.mp4">Video</a>
+          </li>
+          <li>
+            Sebastian Hofstätter, Jiecao Chen, Karthik Raman, Hamed Zamani.
+            <a href="https://openreview.net/forum?id=ogMfFBkNsI6">Multi-Task Retrieval-Augmented Text Generation with Relevance Sampling</a>.
+          </li>
+          <li>
+            Gyuwan Kim, Jinhyuk Lee, Barlas Oguz, Wenhan Xiong, Yizhe Zhang, Yashar Mehdad, William Yang Wang.
+            <a href="https://openreview.net/forum?id=vtOrgYjli9R">Bridging the Training-Inference Gap for Dense Phrase Retrieval</a>.
+            <span class="icon"><i class="fa-solid fa-paperclip"></i></span>
+              <a href="assets/briding-gap-densephrases_poster_v3.pdf">Poster</a>
+          </li>
+          <li>
+            Minki Kang, Jin Myung Kwak, Jinheon Baek, Sung Ju Hwang.
+            <a href="https://openreview.net/forum?id=McHtKDi5h9">Knowledge-Consistent Dialogue Generation with Knowledge Graphs</a>.
+          </li>
+          <li>
+            Ahmad Pouramini.
+            <a href="https://openreview.net/forum?id=SfpsCVKeQ2N">Matching pre-training and Fine-tuning Methods for Knowledge Retrieval from pretrained Language Models</a>.
+          </li>
+          <li>
+            Uri Alon, Frank F. Xu, Junxian He, Sudipta Sengupta, Dan Roth, Graham Neubig.
+            <a href="https://openreview.net/forum?id=ZJZmKGM6UB">Neuro-Symbolic Language Modeling with Automaton-augmented Retrieval</a>.
+            <span class="icon"><i class="fa-solid fa-paperclip"></i></span>
+              <a href="assets/Retomaton_poster_workshop.pdf">Poster</a>
+            &nbsp;
+            <span class="icon"><i class="fa-solid fa-video"></i></span>
+              <a href="https://recorder-v3.slideslive.com/#/share?share=69099&s=f862fc4f-577c-4a54-a820-1fbb4786afb9">Video</a>
+          </li>
+          <li>
+            Weijia Shi, Julian Michael, Suchin Gururangan, Luke Zettlemoyer.
+            <a href="assets/knnlm_workshop_paper.pdf">Nearest Neighbor Zero-Shot Inference</a>.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title">Invited Speakers</h2>
+      <div class="tile is-ancestor">
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Stella-Bideman.jpg" alt="Stella Bideman" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://www.stellabiderman.com/">Stella Bideman</a></p>
+            <p class="subtitle is-6 has-text-centered">Booz Allen Hamilton &amp; EleutherAI</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Danqi-Chen.jpg" alt="Danqi Chen" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://www.cs.princeton.edu/~danqic/">Danqi Chen</a></p>
+            <p class="subtitle is-6 has-text-centered">Princeton University</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Fernando-Diaz.jpg" alt="Fernando Diaz" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://841.io/">Fernando Diaz</a></p>
+            <p class="subtitle is-6 has-text-centered">Google Research</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Quoc-Le.jpg" alt="Quoc Le" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://scholar.google.com/citations?user=vfT6-XIAAAAJ&hl=en">Quoc Le</a></p>
+            <p class="subtitle is-6 has-text-centered">Google Research</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Kenton-Lee.jpg" alt="Kenton Lee" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://kentonl.com/">Kenton Lee</a></p>
+            <p class="subtitle is-6 has-text-centered">Google Research</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+      </div><!-- start a new row every 6 persons -->
+
+      <div class="tile is-ancestor">
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Jimmy-Lin.jpg" alt="Jimmy Lin" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://cs.uwaterloo.ca/~jimmylin/">Jimmy Lin</a></p>
+            <p class="subtitle is-6 has-text-centered">University of Waterloo</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Ellie-Pavlick.gif" alt="Ellie Pavlick" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="http://cs.brown.edu/people/epavlick/">Ellie Pavlick</a></p>
+            <p class="subtitle is-6 has-text-centered">Brown University</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Nils-Reimers.jpg" alt="Nils Reimers" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://www.nils-reimers.de/">Nils Reimers</a></p>
+            <p class="subtitle is-6 has-text-centered">HuggingFace</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Sebastian-Riedel.jpg" alt="Sebastian Riedel" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="https://www.riedelcastro.org/index.html">Sebastian Riedel</a></p>
+            <p class="subtitle is-6 has-text-centered">University College London &amp; Meta AI</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/John-Schulman.jpg" alt="John Schulman" class="is-rounded">
+            </figure>
+            <p class="title is-4 has-text-centered"><a href="http://joschu.net/">John Schulman</a></p>
+            <p class="subtitle is-6 has-text-centered">OpenAI</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title">Workshop Organizers</h2>
+      <div class="tile is-ancestor">
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Maithra-Raghu.jpg" alt="Maithra Raghu" class="is-rounded">
+            </figure>
+            <p class="title is-5 has-text-centered">
+              <a href="https://maithraraghu.com/">Maithra Raghu</a>
+            </p>
+            <p class="subtitle is-6 has-text-centered">Samaya AI</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Urvashi-Khandelwal.jpg" alt="Urvashi Khandelwal" class="is-rounded">
+            </figure>
+            <p class="title is-5 has-text-centered">
+              <a href="https://urvashik.github.io/">Urvashi Khandelwal</a>
+            </p>
+            <p class="subtitle is-6 has-text-centered">Google Research</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Chiyuan-Zhang.jpg" alt="Chiyuan Zhang" class="is-rounded">
+            </figure>
+            <p class="title is-5 has-text-centered">
+              <a href="https://pluskid.org/">Chiyuan Zhang</a>
+            </p>
+            <p class="subtitle is-6 has-text-centered">Google Research</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Matei-Zaharia.jpg" alt="Matei Zaharia" class="is-rounded">
+            </figure>
+            <p class="title is-5 has-text-centered">
+              <a href="https://cs.stanford.edu/~matei/">Matei Zaharia</a>
+            </p>
+            <p class="subtitle is-6 has-text-centered">Stanford University</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+        <!-- Person Information -->
+        <div class="tile is-2 p-4">
+          <div class="tile is-child">
+            <figure class="image is-square block">
+              <img src="images/Alexander-Rush.jpg" alt="Alexander Rush" class="is-rounded">
+            </figure>
+            <p class="title is-5 has-text-centered">
+              <a href="http://rush-nlp.com/">Alexander Rush</a>
+            </p>
+            <p class="subtitle is-6 has-text-centered">Cornell University</p>
+          </div>
+        </div>
+        <!-- End of Person Information -->
+
+      </div>
+      <div class="content">
+        <p>
+          For any questions, please contact us at <a href="mailto:knowledgeretrievalworkshop@gmail.com">knowledgeretrievalworkshop@gmail.com</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+  </body>
+</html>
